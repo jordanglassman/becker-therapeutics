@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-linked research tracker for therapeutics investigated for Becker muscular dystrophy and relevant shared-pathology Duchenne programs. Distinguishes clinical evidence from mechanistic extrapolation.">
+  <meta name="theme-color" content="#102d33">
+  <title>Becker Therapeutics Tracker | Evidence-first drug pipeline</title>
+  <style>
+    :root{--ink:#193037;--muted:#63767a;--night:#102d33;--night2:#1a4246;--paper:#f7f8f5;--white:#fff;--line:#dee6e4;--green:#1a776a;--pale:#eaf5f0;--orange:#985c23;--red:#a34846;--blue:#245f7f;--r:14px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.54 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:#16716d;text-underline-offset:3px;text-decoration-thickness:1px}a:hover{color:#09544f}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #64b4aa;outline-offset:3px}
+    .shell{max-width:1220px;margin:auto;padding:0 30px}header{background:var(--night);color:#edf4f0;position:relative;overflow:hidden}header:before{content:"";position:absolute;width:700px;height:700px;right:-180px;top:-400px;border-radius:50%;border:110px solid rgba(114,183,166,.07);pointer-events:none}
+    nav{height:76px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff22;position:relative;z-index:1}.brand{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:750;letter-spacing:.09em;text-transform:uppercase;color:#f3f7f4;text-decoration:none}.brandmark{width:36px;height:36px;border:1px solid #77bbb1;border-radius:9px;display:grid;place-items:center;color:#b2e9d6;font-size:17px;letter-spacing:-3px;padding-right:3px}.navlinks{display:flex;gap:26px;font-size:13px}.navlinks a{color:#c2d4d1;text-decoration:none}.navlinks a:hover{color:white}
+    .hero{padding:65px 0 66px;position:relative;z-index:1;max-width:910px}.eyebrow{font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:800;color:#8ed5bd;margin-bottom:20px;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";display:inline-block;background:#8ed5bd;width:20px;height:2px}
+    h1{font-size:clamp(37px,5vw,65px);letter-spacing:-.045em;line-height:1.08;margin:0 0 22px;font-weight:740}.hero p{font-size:17px;line-height:1.65;color:#bdd0ce;max-width:750px;margin:0}.hero p a{color:#b2e9d6}.herofoot{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-top:34px}.lightpill{font-size:12px;border:1px solid #62827b;border-radius:30px;padding:7px 12px;color:#d8e9e3}.herofoot a{color:#bce6d8;font-size:13px}
+    main{padding:32px 0 90px}.statrow{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:50px}.stat{padding:23px 22px;background:white;border:1px solid var(--line);border-radius:var(--r)}.stat strong{display:block;font-size:29px;line-height:1.15;letter-spacing:-.04em;font-weight:700}.stat small{display:block;font-size:12px;color:var(--muted);margin-top:5px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:22px;margin:0 0 18px}.kicker{color:var(--green);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.15em;margin-bottom:8px}.section-head h2{font-size:28px;margin:0;letter-spacing:-.035em;line-height:1.22}.section-head p{color:var(--muted);font-size:13px;margin:6px 0 0;max-width:730px}.section-head a{font-size:13px;white-space:nowrap}
+    .changes{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:58px}.change{background:white;border:1px solid var(--line);border-radius:var(--r);padding:20px 18px;min-height:190px}.change time{font-size:11px;font-weight:800;color:var(--green);letter-spacing:.035em}.change h3{font-size:15px;line-height:1.4;margin:10px 0 8px}.change p{font-size:12.5px;line-height:1.55;color:#53686e;margin:0}.source-small{display:inline-flex;gap:3px;font-size:11px;vertical-align:baseline;margin-left:4px;white-space:nowrap}.source-small a{font-size:11px;color:var(--green);font-weight:750}
+    .filterpanel{background:white;border:1px solid var(--line);border-radius:16px;padding:18px;margin:21px 0 16px}.filters{display:grid;grid-template-columns:minmax(230px,1.5fr) repeat(3,minmax(120px,1fr));gap:13px}.field label{display:block;font-weight:700;font-size:11px;color:var(--muted);margin-bottom:7px;letter-spacing:.05em;text-transform:uppercase}.field select,.field input{width:100%;height:43px;border:1px solid #cfdbd8;background:#fdfefd;border-radius:9px;padding:0 12px;color:var(--ink);outline:none}.field input::placeholder{color:#91a09f}.resultrow{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:0 2px 12px;color:var(--muted);font-size:12px}.resultrow span strong{color:var(--ink)}.reset{background:none;border:0;color:var(--green);font-size:12px;font-weight:750;padding:6px}
+    .tablewrap{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:white;box-shadow:0 4px 18px rgba(32,61,55,.035)}table{width:100%;border-collapse:collapse;text-align:left}thead th{background:#f1f5f2;color:#657a79;text-transform:uppercase;letter-spacing:.09em;font-size:10px;font-weight:800;padding:14px 18px;border-bottom:1px solid var(--line)}tbody td{padding:17px 18px;border-bottom:1px solid #e9eeeb;vertical-align:top;font-size:13px}tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fcfdfb}.itemname{font-weight:760;font-size:15px;line-height:1.3}.itemname a{color:var(--ink);text-decoration:none;border-bottom:1px solid #afc9c1}.itemname a:hover{color:var(--green)}.sub{font-size:11.5px;color:var(--muted);margin-top:5px}.sub a{color:var(--muted)}.evidence-badge,.status-badge{display:inline-flex;align-items:center;border-radius:20px;padding:4px 9px;font-size:10.5px;font-weight:700;line-height:1.4;white-space:normal}.evidence-badge.direct{background:#e8f4ef;color:#206657}.evidence-badge.explicit{background:#e8f0f8;color:#386180}.evidence-badge.shared{background:#f7f0e5;color:#855b2e}.status-badge.active{background:#e8f6ec;color:#236f50}.status-badge.planned,.status-badge.preclinical{background:#e9f0f9;color:#3c6595}.status-badge.completed,.status-badge.observational{background:#eef0f1;color:#566970}.status-badge.discontinued{background:#fae9e8;color:#9b4240}.status-badge.stale{background:#fbefdd;color:#8f6039}.stage{font-weight:600;font-size:12px;line-height:1.45}.target{color:#50636c}.details-btn{border:1px solid #bfd1ca;border-radius:8px;color:#165e59;background:#fff;padding:7px 12px;font-size:12px;font-weight:720;white-space:nowrap}.details-btn:hover{background:#eaf5f0}
+    .mobilecards{display:none}.empty{padding:45px 20px;text-align:center;color:var(--muted)}.method{display:grid;grid-template-columns:1.1fr 1fr;gap:45px;margin-top:72px;padding-top:30px;border-top:1px solid var(--line)}.method h2{font-size:25px;letter-spacing:-.03em;margin:0 0 15px}.method p,.method li{color:#53666a;font-size:13px;line-height:1.7}.method ul{padding-left:18px;margin:0}.method li{margin:0 0 9px}.method a{font-weight:650}footer{border-top:1px solid var(--line);color:#687c7e;padding:26px 0 40px;font-size:12px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer a{color:#536c69}
+    dialog{width:min(720px,calc(100% - 26px));max-height:min(84vh,850px);border:1px solid #d1e0dc;border-radius:18px;padding:0;box-shadow:0 20px 85px #102d3355;color:var(--ink)}dialog::backdrop{background:#102d33a8;backdrop-filter:blur(2px)}.dlghead{background:#f5faf7;padding:22px 27px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px}.dlghead .name{font-size:24px;font-weight:760;letter-spacing:-.04em}.dlghead p{margin:5px 0 0;font-size:13px;color:var(--muted)}.close{background:white;border:1px solid #c9dcd4;border-radius:50%;height:33px;width:33px;flex-shrink:0;font-size:20px;line-height:1}.dlgbody{padding:22px 27px 30px}.detailgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:25px}.detailgrid .d{background:#f4f7f5;border-radius:9px;padding:11px}.d label{display:block;color:var(--muted);font-weight:750;font-size:10px;text-transform:uppercase;letter-spacing:.05em}.d strong{display:block;font-size:12px;margin-top:6px}.dlgbody h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#667f7c;margin:23px 0 11px}.claims{list-style:none;padding:0;margin:0}.claims li{border-bottom:1px solid #edf0ee;padding:11px 0;font-size:13px;line-height:1.65}.claims li:last-child{border-bottom:0}.refs{display:grid;grid-template-columns:1fr 1fr;gap:9px}.reference{border:1px solid #e0eae5;background:#fff;border-radius:9px;padding:12px 13px;font-size:12px;line-height:1.4}.reference a{font-weight:700}.reference small{display:block;margin-top:6px;color:#748985;font-size:10.5px}.inline-link{display:inline-flex;margin-left:5px;font-size:11px;text-decoration:none;font-weight:700}.highlight{font-weight:700;color:#1b6d5e}
+    @media(max-width:1050px){.statrow{grid-template-columns:repeat(2,1fr)}.changes{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}.tablewrap{overflow-x:auto}table{min-width:880px}}@media(max-width:700px){.shell{padding:0 17px}.navlinks{gap:12px}.navlinks a:last-child{display:none}.brand{font-size:11px;letter-spacing:.04em}.hero{padding:48px 0 52px}.hero p{font-size:15px}.statrow{gap:8px;margin-bottom:45px}.stat{padding:18px 14px}.stat strong{font-size:25px}.stat small{font-size:11px}.changes{grid-template-columns:1fr 1fr;gap:8px;margin-bottom:49px}.change{padding:15px 13px;min-height:auto}.change h3{font-size:13px}.change p{font-size:11.5px}.section-head{display:block}.section-head h2{font-size:25px}.filters{grid-template-columns:1fr 1fr;gap:11px}.filters .search{grid-column:1/-1}.field select,.field input{font-size:13px}.tablewrap{display:none}.mobilecards{display:grid;gap:10px}.mobilecard{background:white;border:1px solid var(--line);border-radius:13px;padding:17px}.mobilecard .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.mobilecard .itemname{font-size:17px}.mobilecard .meta{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}.mobilecard .statement{color:#52676a;font-size:12px;margin:10px 0 15px}.mobilecard .foot{display:flex;align-items:center;justify-content:space-between;gap:8px}.method{display:block;margin-top:50px}.method>div+div{margin-top:28px}.detailgrid{grid-template-columns:1fr 1fr}.refs{grid-template-columns:1fr}.dlghead{padding:18px}.dlgbody{padding:18px}.dlghead .name{font-size:21px}}@media(max-width:380px){.changes{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.filters .search{grid-column:auto}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="shell">
+    <nav aria-label="Site navigation">
+      <a class="brand" href="#top"><span class="brandmark" aria-hidden="true">B<span style="font-size:9px;letter-spacing:0;margin-left:2px">T</span></span>BECKER THERAPEUTICS</a>
+      <div class="navlinks"><a href="#updates">Updates</a><a href="#pipeline">Pipeline</a><a href="#methodology">Methodology</a></div>
+    </nav>
+    <div class="hero" id="top">
+      <div class="eyebrow">Independent, source-linked research index</div>
+      <h1>Becker therapeutics,<br>tracked with evidence.</h1>
+      <p>A public index of therapies studied in <a href="https://www.mda.org/disease/becker-muscular-dystrophy/research" target="_blank" rel="noopener noreferrer">Becker muscular dystrophy</a> and selected shared-mechanism <a href="https://www.mda.org/disease/becker-muscular-dystrophy/research" target="_blank" rel="noopener noreferrer">Duchenne</a> programs. Becker clinical evidence, sponsor intentions, and biological extrapolation are labeled separately.</p>
+      <div class="herofoot"><span class="lightpill" id="verified">Curated 14 November 2026</span><a href="#methodology">How entries are classified ↗</a></div>
+    </div>
+  </div>
+</header>
+<main class="shell">
+  <section class="statrow" id="statrow" aria-label="Catalog counts"></section>
+  <section id="updates" aria-labelledby="updates-heading">
+    <div class="section-head"><div><div class="kicker">Record of changes</div><h2 id="updates-heading">Latest developments</h2><p>Updates link to the underlying clinical, regulatory, or sponsor record.</p></div></div>
+    <div class="changes" id="changes"></div>
+  </section>
+  <section id="pipeline" aria-labelledby="pipeline-heading">
+    <div class="section-head"><div><div class="kicker">Research catalog</div><h2 id="pipeline-heading">Therapeutic pipeline</h2><p>Development phases refer to the <strong>indicated disease</strong>. For example, “Phase 2 (DMD)” does not mean a drug has reached Phase 2 in Becker.</p></div><a href="#methodology">Evidence key ↗</a></div>
+    <div class="filterpanel"><div class="filters">
+      <div class="field search"><label for="query">Search therapies, developers, mechanisms</label><input id="query" type="search" placeholder="Search the catalog…" autocomplete="off"></div>
+      <div class="field"><label for="evidence">Becker evidence</label><select id="evidence"><option value="all">All evidence levels</option><option value="direct">Studied in Becker</option><option value="explicit">Becker plan / designation</option><option value="shared">DMD only / extrapolated</option></select></div>
+      <div class="field"><label for="activity">Development status</label><select id="activity"><option value="all">All statuses</option><option value="active">Active DMD research</option><option value="planned">Becker expansion planned</option><option value="preclinical">Preclinical</option><option value="completed">Completed</option><option value="discontinued">Discontinued</option><option value="observational">Observational</option><option value="stale">Status unconfirmed</option></select></div>
+      <div class="field"><label for="target">Therapeutic focus</label><select id="target"><option value="all">All tissues</option><option value="skeletal">Skeletal muscle</option><option value="cardiac">Cardiac muscle</option><option value="both">Skeletal + cardiac</option></select></div>
+    </div></div>
+    <div class="resultrow"><span id="resultcount" aria-live="polite"></span><button id="reset" class="reset" type="button">Clear filters</button></div>
+    <div class="tablewrap"><table><thead><tr><th style="width:22%">Therapy / developer</th><th style="width:22%">Becker relevance</th><th style="width:27%">Phase / status</th><th style="width:12%">Target</th><th style="width:17%">Research</th></tr></thead><tbody id="rows"></tbody></table><div class="empty" id="empty" hidden>No entries match the selected filters.</div></div>
+    <div class="mobilecards" id="cards"></div>
+  </section>
+  <section class="method" id="methodology" aria-labelledby="method-heading">
+    <div><div class="kicker">Interpretation</div><h2 id="method-heading">What the labels mean</h2>
+      <p><span class="highlight">Studied in Becker</span> means at least one trial or clinical study includes patients with Becker, but does not imply efficacy. <span class="highlight">Becker plan / designation</span> means an FDA orphan designation, explicit sponsor plan, or sponsor-defined indication; trials may still involve only Duchenne. <span class="highlight">DMD only / extrapolated</span> means the treatment acts on a potentially shared pathological pathway, but no Becker efficacy evidence has been identified in the linked sources.</p>
+      <p><a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/index.cfm/" target="_blank" rel="noopener noreferrer">FDA orphan-drug designation</a> does not mean the treatment is approved or that a clinical trial has enrolled patients. Trial listings and sponsor statements can change; check the linked primary documents before relying on a status.</p>
+    </div>
+    <div><div class="kicker">Editorial process</div><h2>Inclusion and sourcing</h2>
+      <ul>
+        <li>Included: direct Becker trials, explicit Becker programs, therapies acting on shared muscle degeneration/regeneration or dystrophin-associated cardiomyopathy.</li>
+        <li>Excluded: <a href="https://www.mda.org/disease/becker-muscular-dystrophy/research" target="_blank" rel="noopener noreferrer">Duchenne-centered microdystrophin replacement and exon skipping</a> without a specific Becker rationale.</li>
+        <li>Each therapy links to its developer or study. Each substantive factual statement has one or more numbered source links. Source cards identify the publisher and date.</li>
+        <li>Completed and discontinued programs remain visible so negative results are not lost. “No Becker trial identified” means <em>not located in the cited evidence</em>, not proof that none exists.</li>
+        <li>This is a curated, non-exhaustive snapshot; publication updates require independent editorial review. It is not clinical guidance.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="shell"><span>Research catalog snapshot · <span id="footerdate">14 November 2026</span></span><span><a href="https://clinicaltrials.gov/" target="_blank" rel="noopener noreferrer">ClinicalTrials.gov</a> · <a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/index.cfm/" target="_blank" rel="noopener noreferrer">FDA orphan designations</a> · <a href="https://www.mda.org/disease/becker-muscular-dystrophy/research" target="_blank" rel="noopener noreferrer">MDA BMD research</a></span></footer>
+<dialog id="details" aria-labelledby="dialog-title"><div class="dlghead"><div><div class="name" id="dialog-title"></div><p id="dialog-sub"></p></div><button class="close" id="close" aria-label="Close details" type="button">×</button></div><div class="dlgbody" id="dialog-body"></div></dialog>
+<script id="catalog-data" type="application/json">__CATALOG_JSON__</script>
+<script>
+(() => {
+  'use strict';
+  const catalog = JSON.parse(document.getElementById('catalog-data').textContent);
+  const $ = id => document.getElementById(id);
+  const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const attr = esc;
+  const source = k => catalog.sources[k];
+  const href = (url, label, cls='') => `<a ${cls ? `class="${cls}" ` : ''}href="${attr(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+  const cite = (refs, order=null) => `<span class="source-small">${refs.map((r,i)=>href(source(r).url, `[${order ? order.indexOf(r)+1 : i+1}]`)).join(' ')}</span>`;
+  const evidenceNames = {direct:'Studied in Becker',explicit:'Becker plan / designation',shared:'DMD only / extrapolated'};
+  const statusNames = {active:'Active DMD study',planned:'Expansion planned',preclinical:'Preclinical',completed:'Completed',discontinued:'Discontinued',observational:'Observational',stale:'Status unconfirmed'};
+  const targetNames = {skeletal:'Skeletal',cardiac:'Cardiac',both:'Skeletal + cardiac'};
+  const dateHuman = date => new Date(date+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  $('verified').textContent = 'Curated ' + dateHuman(catalog.updated);
+  $('footerdate').textContent = dateHuman(catalog.updated);
+  const stats = [
+    ['Cataloged therapies',catalog.drugs.length],
+    ['With Becker participants',catalog.drugs.filter(x=>x.group==='direct').length],
+    ['Explicit Becker programs',catalog.drugs.filter(x=>x.group==='explicit').length],
+    ['DMD-only comparisons',catalog.drugs.filter(x=>x.group==='shared').length]
+  ];
+  $('statrow').innerHTML = stats.map(([t,n])=>`<div class="stat"><strong>${n}</strong><small>${esc(t)}</small></div>`).join('');
+  $('changes').innerHTML = catalog.updates.map(u=>`<article class="change"><time datetime="${attr(u.date)}">${dateHuman(u.date)}</time><h3>${esc(u.title)} ${cite(u.refs)}</h3><p>${esc(u.text)} ${cite(u.refs)}</p></article>`).join('');
+  function details(drug){
+    $('dialog-title').innerHTML = `${href(source(drug.refs[0]).url,drug.name)}${drug.alias ? `<span class="sub"> · ${esc(drug.alias)}</span>` : ''}`;
+    $('dialog-sub').innerHTML = `${href(drug.developerUrl,drug.developer)} · ${esc(statusNames[drug.status])}`;
+    const trial = drug.trial ? `<div class="d"><label>Trial ID</label><strong>${href(`https://clinicaltrials.gov/study/${drug.trial}`,drug.trial)}</strong></div>` : `<div class="d"><label>Linked studies</label><strong>See sources</strong></div>`;
+    $('dialog-body').innerHTML = `<div class="detailgrid"><div class="d"><label>Becker evidence</label><strong>${esc(evidenceNames[drug.group])}</strong></div><div class="d"><label>Development phase</label><strong>${esc(drug.stage)}</strong></div>${trial}</div><h3>Verified findings</h3><ul class="claims">${drug.claims.map(c=>`<li>${esc(c.text)} ${cite(c.refs,drug.refs)}</li>`).join('')}</ul><h3>Source documents</h3><div class="refs">${drug.refs.map((k,i)=>{const s=source(k);return `<div class="reference">${href(s.url,`[${i+1}] ${s.title}`)}<small>${esc(s.publisher)} · ${esc(s.date)}</small></div>`}).join('')}</div>`;
+    $('details').showModal();
+  }
+  $('close').addEventListener('click',()=>$('details').close());
+  $('details').addEventListener('click',e=>{if(e.target===$('details'))$('details').close();});
+  const all = [...catalog.drugs].sort((a,b)=>b.date.localeCompare(a.date)||a.name.localeCompare(b.name));
+  function filtered(){
+    const q = $('query').value.trim().toLocaleLowerCase();
+    return all.filter(d => ($('evidence').value==='all'||d.group===$('evidence').value)
+      && ($('activity').value==='all'||d.status===$('activity').value)
+      && ($('target').value==='all'||d.tissue===$('target').value||d.tissue==='both'&&$('target').value!=='both')
+      && (!q||[d.name,d.alias,d.developer,d.stage,...d.claims.map(c=>c.text)].join(' ').toLowerCase().includes(q)));
+  }
+  function render(){
+    const list = filtered();
+    $('resultcount').innerHTML=`<strong>${list.length}</strong> of ${catalog.drugs.length} therapies`;
+    $('rows').innerHTML = list.map(d=>`<tr><td><div class="itemname">${href(source(d.refs[0]).url,d.name)}</div><div class="sub">${esc(d.alias)}</div><div class="sub">${href(d.developerUrl,d.developer)}</div></td><td><span class="evidence-badge ${d.group}">${esc(evidenceNames[d.group])}</span> ${cite(d.refs.slice(0,2))}</td><td><div class="stage">${esc(d.stage)} ${cite(d.refs.slice(0,2))}</div><div style="margin-top:7px"><span class="status-badge ${d.status}">${esc(statusNames[d.status])}</span></div></td><td class="target">${esc(targetNames[d.tissue])} ${cite(d.refs.slice(0,1))}</td><td><button class="details-btn" data-drug="${attr(d.id)}" type="button">Evidence & sources ↗</button>${d.trial?`<div class="sub">${href(`https://clinicaltrials.gov/study/${d.trial}`,d.trial)}</div>`:''}</td></tr>`).join('');
+    $('cards').innerHTML = list.map(d=>`<article class="mobilecard"><div class="top"><div><div class="itemname">${href(source(d.refs[0]).url,d.name)}</div><div class="sub">${esc(d.alias)}</div><div class="sub">${href(d.developerUrl,d.developer)}</div></div><span class="status-badge ${d.status}">${esc(statusNames[d.status])}</span></div><div class="meta"><span class="evidence-badge ${d.group}">${esc(evidenceNames[d.group])}</span></div><p class="statement">${esc(d.stage)} ${cite(d.refs.slice(0,2))} · ${esc(targetNames[d.tissue])}</p><div class="foot"><span class="sub">${d.trial?href(`https://clinicaltrials.gov/study/${d.trial}`,d.trial):'Primary sources linked'}</span><button class="details-btn" data-drug="${attr(d.id)}" type="button">Evidence & sources ↗</button></div></article>`).join('');
+    $('empty').hidden=list.length>0;
+    if(!list.length) $('cards').innerHTML='<div class="empty">No entries match the selected filters.</div>';
+  }
+  document.addEventListener('click',e=>{const btn=e.target.closest('button[data-drug]');if(btn){const d=catalog.drugs.find(x=>x.id===btn.dataset.drug);if(d)details(d);}});
+  for(const id of ['query','evidence','activity','target'])$(id).addEventListener(id==='query'?'input':'change',render);
+  $('reset').addEventListener('click',()=>{$('query').value='';$('evidence').value='all';$('activity').value='all';$('target').value='all';render();});
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1076 @@
+{
+  "updated": "2026-11-14",
+  "version": "0.1",
+  "sources": {
+    "servier": {
+      "title": "Servier: sevasemten topline results and discontinuation",
+      "publisher": "Servier",
+      "date": "2026-11-13",
+      "url": "https://servier.com/en/newsroom/topline-pivotal-results-sevasemten-becker/"
+    },
+    "ract_fda": {
+      "title": "Orphan designation for utrophin-targeting saRNA in DMD and BMD",
+      "publisher": "U.S. FDA",
+      "date": "2024-08-21",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1019824"
+    },
+    "ract_data": {
+      "title": "RAG-18 first-in-human data in DMD",
+      "publisher": "Ractigen Therapeutics",
+      "date": "2026-10-03",
+      "url": "https://www.prnewswire.com/news-releases/ractigen-therapeutics-presents-positive-first-in-human-data-for-rag-18-at-wms-2026-establishing-clinical-proof-of-mechanism-for-rna-activation-in-duchenne-muscular-dystrophy-302897620.html"
+    },
+    "ract_trial": {
+      "title": "NCT07282652: RAG-18 study",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026",
+      "url": "https://clinicaltrials.gov/study/NCT07282652"
+    },
+    "cap_2026": {
+      "title": "Capricor Q3 2026 development update, including Becker expansion",
+      "publisher": "Capricor Therapeutics",
+      "date": "2026-11-10",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/359/capricor-therapeutics-reports-third-quarter-2026-financial"
+    },
+    "cap_fda": {
+      "title": "FDA orphan designation for cardiosphere-derived cells in BMD",
+      "publisher": "U.S. FDA",
+      "date": "2025-06-13",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1079225"
+    },
+    "cap_trial": {
+      "title": "NCT05126758: HOPE-3 in DMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026",
+      "url": "https://clinicaltrials.gov/study/NCT05126758"
+    },
+    "cap_crl": {
+      "title": "2025 FDA complete response letter for deramiocel",
+      "publisher": "U.S. FDA",
+      "date": "2025-07-09",
+      "url": "https://download.open.fda.gov/crl/CRL_BLA125842_20250709.pdf"
+    },
+    "vamo_trial": {
+      "title": "NCT05166109: Becker vamorolone Phase 2 results",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-09-15",
+      "url": "https://clinicaltrials.gov/study/NCT05166109?tab=results"
+    },
+    "givi_fda": {
+      "title": "FDA orphan designation for myogenic progenitors in BMD",
+      "publisher": "U.S. FDA",
+      "date": "2024-12-23",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=1051524"
+    },
+    "givi_pipe": {
+      "title": "IPS HEART pipeline description of GIVI-MPC",
+      "publisher": "IPS HEART",
+      "date": "undated",
+      "url": "https://ipsheart.com/our-pipeline"
+    },
+    "ker_pres": {
+      "title": "Keros November 2026 corporate presentation, including BMD rationale",
+      "publisher": "Keros Therapeutics / SEC",
+      "date": "2026-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1664710/000166471026000067/keros-corporatepresentat.htm"
+    },
+    "ker_news": {
+      "title": "Keros Q3 2026 update: Phase 2 rinvatercept in DMD",
+      "publisher": "Keros Therapeutics",
+      "date": "2026-11-05",
+      "url": "https://ir.kerostx.com/news-releases/news-release-details/keros-therapeutics-reports-recent-business-highlights-and-16"
+    },
+    "sat_news": {
+      "title": "Satellos Q3 2026 update on forazapadin",
+      "publisher": "Satellos Bioscience",
+      "date": "2026-11-12",
+      "url": "https://ir.satellos.com/news/news-details/2026/Satellos-Reports-Third-Quarter-2026-Financial-Results-and-Highlights-Company-Progress/default.aspx"
+    },
+    "stm_news": {
+      "title": "THRIVE-2 Phase 2 STM-01 study begins",
+      "publisher": "Jett Foundation / Secretome Therapeutics",
+      "date": "2026-09-29",
+      "url": "https://www.jettfoundation.org/duchenne-news/secretome-therapeutics-announces-thrive-2-phase-2-clinical-study-initiation/"
+    },
+    "ife_news": {
+      "title": "Cumberland Q3 2026 update: planned ifetroban NDA",
+      "publisher": "Cumberland Pharmaceuticals",
+      "date": "2026-11-10",
+      "url": "https://investor.cumberlandpharma.com/news-releases/news-release-details/cumberland-pharmaceuticals-reports-q3-2026-financial-results"
+    },
+    "ife_trial": {
+      "title": "NCT03340675: FIGHT DMD Phase 2 ifetroban",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026-03-17",
+      "url": "https://clinicaltrials.gov/study/NCT03340675"
+    },
+    "txa_news": {
+      "title": "Constant Therapeutics: first DMD cardiomyopathy patient dosed",
+      "publisher": "Constant Therapeutics",
+      "date": "2024-03",
+      "url": "https://www.constanttherapeutics.com/news-and-events/constant-therapeutics-announces-first-patient-dosed-in-phase-2-clinical-trial-of-txa127-in-duchenne-muscular-dystrophy-associated-cardiomyopathy"
+    },
+    "txa_trial": {
+      "title": "NCT06013839: TXA127 in DMD cardiomyopathy",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026",
+      "url": "https://clinicaltrials.gov/study/NCT06013839"
+    },
+    "srd_trial": {
+      "title": "NCT06224660: SRD-001 for DMD cardiomyopathy",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026",
+      "url": "https://clinicaltrials.gov/study/NCT06224660"
+    },
+    "srd_nih": {
+      "title": "SRD-001 clinical study overview",
+      "publisher": "Nationwide Children's Hospital",
+      "date": "undated",
+      "url": "https://www.nationwidechildrens.org/research/clinical-research/gene-therapy-clinical-research/srd-001-1004"
+    },
+    "cana_trial": {
+      "title": "NCT03936894: canakinumab in DMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2026",
+      "url": "https://clinicaltrials.gov/study/NCT03936894"
+    },
+    "sglt_paper": {
+      "title": "SGLT2 inhibitors in muscular dystrophy cardiomyopathy; eight BMD participants",
+      "publisher": "Journal of Clinical Medicine / PubMed Central",
+      "date": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13116835/"
+    },
+    "epm_trial": {
+      "title": "NCT04386304: (+)-epicatechin (EPM-01) Phase 1 in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2022-03",
+      "url": "https://clinicaltrials.gov/study/NCT04386304"
+    },
+    "epm_fda": {
+      "title": "FDA orphan designation of (+)-epicatechin for DMD and BMD",
+      "publisher": "U.S. FDA",
+      "date": "2020-04-06",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=732020"
+    },
+    "epm_ema": {
+      "title": "EMA withdrawal of (+)-epicatechin orphan designation (EU)",
+      "publisher": "European Medicines Agency",
+      "date": "2024-10",
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-20-2293"
+    },
+    "neg_epi": {
+      "title": "(-)-Epicatechin in seven adults with BMD",
+      "publisher": "Muscle & Nerve / PubMed",
+      "date": "2021-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33125736/"
+    },
+    "neg_epi_trial": {
+      "title": "NCT01856868: (-)-epicatechin study in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2014",
+      "url": "https://clinicaltrials.gov/study/NCT01856868"
+    },
+    "givi_paper": {
+      "title": "Randomized givinostat study in Becker",
+      "publisher": "Frontiers in Neurology / PubMed Central",
+      "date": "2023-01-30",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9923355/"
+    },
+    "givi_trial": {
+      "title": "NCT03238235: givinostat trial in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2023",
+      "url": "https://clinicaltrials.gov/study/NCT03238235"
+    },
+    "met_trial": {
+      "title": "NCT02018731: metformin and L-citrulline Phase 2 in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2016-05-16",
+      "url": "https://clinicaltrials.gov/study/NCT02018731"
+    },
+    "tad_trial": {
+      "title": "NCT02207283: tadalafil in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "undated",
+      "url": "https://clinicaltrials.gov/study/NCT02207283"
+    },
+    "sil_paper": {
+      "title": "Randomized sildenafil trial in BMD: no measured improvement",
+      "publisher": "Annals of Neurology / PubMed",
+      "date": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25042931/"
+    },
+    "sil_card": {
+      "title": "Sildenafil cardiomyopathy trial in DMD/BMD stopped early",
+      "publisher": "Annals of Neurology / PubMed Central",
+      "date": "2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191982/"
+    },
+    "nit_paper": {
+      "title": "Sodium nitrate improves exercise-related perfusion in small BMD trials",
+      "publisher": "Journal of Physiology / PubMed Central",
+      "date": "2015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4666991/"
+    },
+    "nit_trial": {
+      "title": "NCT02147639: sodium nitrate in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2015",
+      "url": "https://clinicaltrials.gov/study/NCT02147639"
+    },
+    "foll_trial": {
+      "title": "NCT01519349: follistatin gene transfer in BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2023",
+      "url": "https://clinicaltrials.gov/study/NCT01519349"
+    },
+    "foll_paper": {
+      "title": "Phase 1/2a follistatin gene transfer in BMD",
+      "publisher": "Molecular Therapy / PubMed",
+      "date": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25322757/"
+    },
+    "crd_trial": {
+      "title": "NCT01540604: CRD007 for DMD and BMD",
+      "publisher": "ClinicalTrials.gov",
+      "date": "2012",
+      "url": "https://clinicaltrials.gov/study/NCT01540604"
+    },
+    "myo_paper": {
+      "title": "MYO-029 Phase 1/2 study including BMD",
+      "publisher": "Annals of Neurology / PubMed",
+      "date": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18335515/"
+    },
+    "mda": {
+      "title": "MDA research overview for Becker muscular dystrophy",
+      "publisher": "Muscular Dystrophy Association",
+      "date": "2024",
+      "url": "https://www.mda.org/disease/becker-muscular-dystrophy/research"
+    },
+    "cana_status": {
+      "title": "Canakinumab trial registry status, last verified September 2023",
+      "publisher": "Veeva Clinical Trials / ClinicalTrials.gov",
+      "date": "2023-09",
+      "url": "https://ctv.veeva.com/study/single-escalating-dose-pilot-trial-of-canakinumab-ilaris-r-in-duchenne-muscular-dystrophy"
+    },
+    "crd_alias": {
+      "title": "EU trial record identifying CRD007 as pemirolast",
+      "publisher": "EU Clinical Trials Register",
+      "date": "2012",
+      "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2011-004667-76/SE"
+    }
+  },
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "title": "Sevasemten development stopped",
+      "text": "Servier discontinued studies in both Becker and Duchenne following the GRAND CANYON trial's failure to meet primary and secondary endpoints.",
+      "refs": [
+        "servier"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Forazapadin Phase 2 endpoint updated",
+      "text": "Satellos reported MRI-measured vastus lateralis fat fraction as BASECAMP's primary efficacy endpoint; DMD data are expected in Q1 2027.",
+      "refs": [
+        "sat_news"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Deramiocel Becker expansion remains prospective",
+      "text": "Capricor said Becker expansion remains an area of focus, contingent on its U.S. DMD regulatory outcome.",
+      "refs": [
+        "cap_2026"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Rinvatercept Phase 2 underway in Duchenne",
+      "text": "Keros confirmed first DMD patient dosing in September 2026; its presentation also discusses Becker as a potential application.",
+      "refs": [
+        "ker_news",
+        "ker_pres"
+      ]
+    }
+  ],
+  "drugs": [
+    {
+      "id": "rag18",
+      "name": "RAG-18",
+      "alias": "utrophin-targeting saRNA",
+      "developer": "Ractigen Therapeutics",
+      "developerUrl": "https://www.ractigen.com/",
+      "group": "explicit",
+      "status": "active",
+      "stage": "Phase 1 (DMD)",
+      "tissue": "skeletal",
+      "date": "2026-10-03",
+      "refs": [
+        "ract_fda",
+        "ract_data",
+        "ract_trial"
+      ],
+      "trial": "NCT07282652",
+      "claims": [
+        {
+          "text": "FDA orphan designation covers both Duchenne and Becker; this is not evidence of Becker trial enrollment.",
+          "refs": [
+            "ract_fda"
+          ]
+        },
+        {
+          "text": "Systemically delivered small activating RNA is intended to increase endogenous utrophin expression. In an initial DMD cohort, the sponsor reported 3.5–5.3× sarcolemmal utrophin changes.",
+          "refs": [
+            "ract_data"
+          ]
+        },
+        {
+          "text": "The registered clinical study is in Duchenne, not Becker.",
+          "refs": [
+            "ract_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deramiocel",
+      "name": "Deramiocel",
+      "alias": "CAP-1002",
+      "developer": "Capricor Therapeutics",
+      "developerUrl": "https://www.capricor.com/",
+      "group": "explicit",
+      "status": "planned",
+      "stage": "DMD Phase 3 / BLA review; BMD discovery",
+      "tissue": "both",
+      "date": "2026-11-10",
+      "refs": [
+        "cap_2026",
+        "cap_fda",
+        "cap_crl"
+      ],
+      "trial": "NCT05126758",
+      "claims": [
+        {
+          "text": "FDA orphan designation for Becker was granted in June 2025. No Becker efficacy trial is reported in the current development update.",
+          "refs": [
+            "cap_fda",
+            "cap_2026"
+          ]
+        },
+        {
+          "text": "Allogeneic cardiosphere-derived cell therapy; Capricor identifies a possible Becker expansion, subject to its U.S. Duchenne regulatory outcome.",
+          "refs": [
+            "cap_2026"
+          ]
+        },
+        {
+          "text": "The DMD application is under FDA review with a November 22, 2026 target action date. The FDA previously raised efficacy concerns in a July 2025 complete response letter.",
+          "refs": [
+            "cap_2026",
+            "cap_crl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ker065",
+      "name": "Rinvatercept",
+      "alias": "KER-065",
+      "developer": "Keros Therapeutics",
+      "developerUrl": "https://www.kerostx.com/",
+      "group": "explicit",
+      "status": "active",
+      "stage": "Phase 2 (DMD)",
+      "tissue": "skeletal",
+      "date": "2026-11-05",
+      "refs": [
+        "ker_pres",
+        "ker_news"
+      ],
+      "claims": [
+        {
+          "text": "Modified activin receptor type II ligand trap designed to inhibit activin A and myostatin signaling.",
+          "refs": [
+            "ker_pres"
+          ]
+        },
+        {
+          "text": "Keros explicitly discusses Becker as a potential disease application, but its disclosed Phase 2 study is in Duchenne.",
+          "refs": [
+            "ker_pres",
+            "ker_news"
+          ]
+        },
+        {
+          "text": "The sponsor reported first DMD patient dosed in September 2026 and anticipated initial data in the first half of 2027.",
+          "refs": [
+            "ker_news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "givi",
+      "name": "GIVI-MPC",
+      "alias": "iPSC-derived myogenic progenitor cells",
+      "developer": "IPS HEART",
+      "developerUrl": "https://ipsheart.com/",
+      "group": "explicit",
+      "status": "preclinical",
+      "stage": "Preclinical / BMD orphan designation",
+      "tissue": "skeletal",
+      "date": "2024-12-23",
+      "refs": [
+        "givi_fda",
+        "givi_pipe"
+      ],
+      "claims": [
+        {
+          "text": "FDA orphan designation explicitly covers Becker muscular dystrophy; FDA lists no orphan approval for this indication.",
+          "refs": [
+            "givi_fda"
+          ]
+        },
+        {
+          "text": "Human induced-pluripotent-stem-cell-derived myogenic progenitors are intended to form new skeletal muscle. Sponsor material describes preclinical work, not Becker clinical efficacy.",
+          "refs": [
+            "givi_pipe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forazapadin",
+      "name": "Forazapadin",
+      "alias": "SAT-3247",
+      "developer": "Satellos Bioscience",
+      "developerUrl": "https://www.satellos.com/",
+      "group": "shared",
+      "status": "active",
+      "stage": "Phase 2 (DMD)",
+      "tissue": "skeletal",
+      "date": "2026-11-12",
+      "refs": [
+        "sat_news"
+      ],
+      "claims": [
+        {
+          "text": "Oral small molecule intended to restore muscle regeneration; the disclosed Phase 2 BASECAMP trial enrolls boys with Duchenne, not Becker.",
+          "refs": [
+            "sat_news"
+          ]
+        },
+        {
+          "text": "The sponsor reported 53 DMD participants enrolled; MRI fat fraction is the primary efficacy endpoint and topline data are expected in Q1 2027.",
+          "refs": [
+            "sat_news"
+          ]
+        },
+        {
+          "text": "Potential Becker applicability is mechanistic extrapolation, not an announced Becker indication.",
+          "refs": [
+            "sat_news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stm",
+      "name": "STM-01",
+      "alias": "cardiac progenitor cell therapy",
+      "developer": "Secretome Therapeutics",
+      "developerUrl": "https://www.secretometx.com/",
+      "group": "shared",
+      "status": "active",
+      "stage": "Phase 2 (DMD)",
+      "tissue": "both",
+      "date": "2026-09-29",
+      "refs": [
+        "stm_news"
+      ],
+      "claims": [
+        {
+          "text": "THRIVE-2 is an open-label Phase 2 trial in Duchenne evaluating skeletal and cardiac measures.",
+          "refs": [
+            "stm_news"
+          ]
+        },
+        {
+          "text": "The investigational cells are derived from neonatal cardiac progenitors; the sponsor proposes anti-inflammatory, antifibrotic and tissue-repair effects.",
+          "refs": [
+            "stm_news"
+          ]
+        },
+        {
+          "text": "No Becker clinical enrollment was announced in the cited trial update.",
+          "refs": [
+            "stm_news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifetroban",
+      "name": "Ifetroban",
+      "alias": "DYSCORBAN (proposed brand)",
+      "developer": "Cumberland Pharmaceuticals",
+      "developerUrl": "https://www.cumberlandpharma.com/",
+      "group": "shared",
+      "status": "active",
+      "stage": "Phase 2 completed (DMD); NDA planned",
+      "tissue": "cardiac",
+      "date": "2026-11-10",
+      "refs": [
+        "ife_news",
+        "ife_trial"
+      ],
+      "trial": "NCT03340675",
+      "claims": [
+        {
+          "text": "Thromboxane receptor antagonist developed for cardiomyopathy associated with Duchenne; Becker is not an enrolled population in FIGHT DMD.",
+          "refs": [
+            "ife_news",
+            "ife_trial"
+          ]
+        },
+        {
+          "text": "Cumberland plans an FDA new drug application supported by Phase 2 data and external natural-history controls. FDA previously raised comparator and endpoint concerns.",
+          "refs": [
+            "ife_news",
+            "ife_trial"
+          ]
+        },
+        {
+          "text": "Reported ejection-fraction improvement is sponsor-reported DMD evidence, not a demonstrated Becker treatment effect.",
+          "refs": [
+            "ife_news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "txa127",
+      "name": "TXA127",
+      "alias": "angiotensin-(1–7)",
+      "developer": "Constant Therapeutics",
+      "developerUrl": "https://www.constanttherapeutics.com/",
+      "group": "shared",
+      "status": "active",
+      "stage": "Phase 2 (DMD)",
+      "tissue": "cardiac",
+      "date": "2024-03-03",
+      "refs": [
+        "txa_news",
+        "txa_trial"
+      ],
+      "trial": "NCT06013839",
+      "claims": [
+        {
+          "text": "Angiotensin-(1–7) peptide under evaluation in a Phase 2 study of Duchenne-associated cardiomyopathy.",
+          "refs": [
+            "txa_news",
+            "txa_trial"
+          ]
+        },
+        {
+          "text": "A sponsor announcement confirms first dosing in March 2024; current recruitment should be checked directly in the registry.",
+          "refs": [
+            "txa_news",
+            "txa_trial"
+          ]
+        },
+        {
+          "text": "No Becker enrollment is established by these sources.",
+          "refs": [
+            "txa_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "srd",
+      "name": "SRD-001",
+      "alias": "AAV1/SERCA2a",
+      "developer": "Sardocor",
+      "developerUrl": "https://www.sardocor.com/",
+      "group": "shared",
+      "status": "active",
+      "stage": "Phase 1b (DMD)",
+      "tissue": "cardiac",
+      "date": "2026-03-05",
+      "refs": [
+        "srd_trial",
+        "srd_nih"
+      ],
+      "trial": "NCT06224660",
+      "claims": [
+        {
+          "text": "Cardiac-targeted AAV1 delivery of SERCA2a, a calcium-handling protein, rather than replacement of dystrophin.",
+          "refs": [
+            "srd_trial",
+            "srd_nih"
+          ]
+        },
+        {
+          "text": "Current study enrolls DMD-associated cardiomyopathy, not Becker; clinical benefit in Becker is untested.",
+          "refs": [
+            "srd_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canakinumab",
+      "name": "Canakinumab",
+      "alias": "ILARIS",
+      "developer": "Children’s National Research Institute",
+      "developerUrl": "https://childrensnational.org/research",
+      "group": "shared",
+      "status": "stale",
+      "stage": "Phase 1/2 (DMD; registry outdated)",
+      "tissue": "skeletal",
+      "date": "2023-09-01",
+      "refs": [
+        "cana_trial",
+        "cana_status"
+      ],
+      "trial": "NCT03936894",
+      "claims": [
+        {
+          "text": "IL-1β-blocking antibody evaluated in an early clinical study of Duchenne muscular dystrophy.",
+          "refs": [
+            "cana_trial"
+          ]
+        },
+        {
+          "text": "No Becker study or Becker efficacy results are identified in the cited trial record.",
+          "refs": [
+            "cana_trial"
+          ]
+        },
+        {
+          "text": "The trial registry continues to display 'active, not recruiting' despite an estimated 2024 completion and an older status-verification date. Current operational status is uncertain.",
+          "refs": [
+            "cana_status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sglt2",
+      "name": "SGLT2 inhibitors",
+      "alias": "empagliflozin / dapagliflozin",
+      "developer": "Clinical investigators",
+      "developerUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13116835/",
+      "group": "direct",
+      "status": "observational",
+      "stage": "Retrospective BMD cohort",
+      "tissue": "cardiac",
+      "date": "2026-04-01",
+      "refs": [
+        "sglt_paper"
+      ],
+      "claims": [
+        {
+          "text": "A single-center retrospective 2026 study included 24 muscular dystrophy patients, eight with Becker, who received empagliflozin or dapagliflozin.",
+          "refs": [
+            "sglt_paper"
+          ]
+        },
+        {
+          "text": "Changes in cardiac measures were assessed across mixed diagnoses with concurrent treatment changes; the study does not establish Becker-specific efficacy.",
+          "refs": [
+            "sglt_paper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vamorolone",
+      "name": "Vamorolone",
+      "alias": "AGAMREE",
+      "developer": "ReveraGen BioPharma",
+      "developerUrl": "https://www.reveragen.com/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 2 completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2026-09-15",
+      "refs": [
+        "vamo_trial"
+      ],
+      "trial": "NCT05166109",
+      "claims": [
+        {
+          "text": "Randomized, placebo-controlled Phase 2 Becker trial enrolled 46 participants and completed in August 2025; results were posted in September 2026.",
+          "refs": [
+            "vamo_trial"
+          ]
+        },
+        {
+          "text": "Primary objectives focused on safety and tolerability, with exploratory efficacy measures. Published registry data do not establish clinically meaningful Becker efficacy.",
+          "refs": [
+            "vamo_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epm01",
+      "name": "(+)-Epicatechin",
+      "alias": "EPM-01",
+      "developer": "Epirium Bio",
+      "developerUrl": "https://epirium.com/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 1 completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2024-10-01",
+      "refs": [
+        "epm_trial",
+        "epm_fda",
+        "epm_ema",
+        "neg_epi"
+      ],
+      "trial": "NCT04386304",
+      "claims": [
+        {
+          "text": "An open-label, dose-escalation Phase 1 study enrolled Becker or Becker-like muscular dystrophy patients and completed in 2022. No controlled Becker efficacy result was identified.",
+          "refs": [
+            "epm_trial"
+          ]
+        },
+        {
+          "text": "The FDA orphan designation covers DMD and BMD. The separate European orphan designation was withdrawn at the sponsor’s request in October 2024.",
+          "refs": [
+            "epm_fda",
+            "epm_ema"
+          ]
+        },
+        {
+          "text": "This is the (+) enantiomer, distinct from the earlier (-)-epicatechin Becker study.",
+          "refs": [
+            "epm_trial",
+            "neg_epi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minus-epi",
+      "name": "(−)-Epicatechin",
+      "alias": "purified epicatechin",
+      "developer": "UC Davis / academic investigators",
+      "developerUrl": "https://health.ucdavis.edu/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Pilot completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2021-02-01",
+      "refs": [
+        "neg_epi",
+        "neg_epi_trial",
+        "epm_trial"
+      ],
+      "trial": "NCT01856868",
+      "claims": [
+        {
+          "text": "An open-label eight-week pilot involved seven adults with Becker muscular dystrophy.",
+          "refs": [
+            "neg_epi"
+          ]
+        },
+        {
+          "text": "The publication reports short-term changes in mitochondrial and regeneration biomarkers; it does not demonstrate long-term clinical benefit.",
+          "refs": [
+            "neg_epi"
+          ]
+        },
+        {
+          "text": "The studied (−) enantiomer must not be conflated with Epirium’s (+)-epicatechin (EPM-01).",
+          "refs": [
+            "neg_epi",
+            "epm_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "givinostat",
+      "name": "Givinostat",
+      "alias": "DUVYZAT",
+      "developer": "Italfarmaco",
+      "developerUrl": "https://www.italfarmaco.com/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 2 completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2023-01-30",
+      "refs": [
+        "givi_paper",
+        "givi_trial"
+      ],
+      "trial": "NCT03238235",
+      "claims": [
+        {
+          "text": "In a randomized 12-month Becker study, givinostat failed its prespecified primary endpoint of change in muscle fibrosis (p=0.8282).",
+          "refs": [
+            "givi_paper"
+          ]
+        },
+        {
+          "text": "MRI fat-fraction differences favored givinostat, but no functional benefit was established in this study.",
+          "refs": [
+            "givi_paper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sevasemten",
+      "name": "Sevasemten",
+      "alias": "EDG-5506",
+      "developer": "Servier (originated at Edgewise)",
+      "developerUrl": "https://servier.com/en/",
+      "group": "direct",
+      "status": "discontinued",
+      "stage": "Phase 3 failed (BMD); stopped",
+      "tissue": "skeletal",
+      "date": "2026-11-13",
+      "refs": [
+        "servier"
+      ],
+      "claims": [
+        {
+          "text": "GRAND CANYON did not show a statistically significant benefit on the North Star Ambulatory Assessment primary endpoint, or meet secondary endpoints.",
+          "refs": [
+            "servier"
+          ]
+        },
+        {
+          "text": "Servier announced discontinuation of sevasemten clinical studies in both Becker and Duchenne on November 13, 2026.",
+          "refs": [
+            "servier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin + L-citrulline",
+      "alias": "combination therapy",
+      "developer": "University Hospital Basel",
+      "developerUrl": "https://www.unispital-basel.ch/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 2 completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2016-05-16",
+      "refs": [
+        "met_trial"
+      ],
+      "trial": "NCT02018731",
+      "claims": [
+        {
+          "text": "A Phase 2 open-label pilot investigated metformin, L-citrulline and their combination in 20 adults with Becker; study completion was recorded in 2015.",
+          "refs": [
+            "met_trial"
+          ]
+        },
+        {
+          "text": "The trial record provides no randomized long-term disease-modification evidence.",
+          "refs": [
+            "met_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tadalafil",
+      "name": "Tadalafil",
+      "alias": "PDE5 inhibitor",
+      "developer": "Cedars-Sinai investigators",
+      "developerUrl": "https://www.cedars-sinai.org/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "BMD trial completed",
+      "tissue": "skeletal",
+      "date": "2014-01-01",
+      "refs": [
+        "tad_trial"
+      ],
+      "trial": "NCT02207283",
+      "claims": [
+        {
+          "text": "Studied in Becker for effects on exercise-associated muscle blood-flow regulation; the cited study record does not establish long-term slowing of muscle degeneration.",
+          "refs": [
+            "tad_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sildenafil",
+      "name": "Sildenafil",
+      "alias": "PDE5 inhibitor",
+      "developer": "Academic investigators",
+      "developerUrl": "https://pubmed.ncbi.nlm.nih.gov/25042931/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Randomized BMD trials completed",
+      "tissue": "both",
+      "date": "2014-10-01",
+      "refs": [
+        "sil_paper",
+        "sil_card"
+      ],
+      "claims": [
+        {
+          "text": "A controlled Becker trial found no improvement in blood flow, maximal work, or cardiac function.",
+          "refs": [
+            "sil_paper"
+          ]
+        },
+        {
+          "text": "A separate DMD/BMD cardiomyopathy trial was stopped early after greater ventricular-volume worsening in sildenafil-treated participants; between-group efficacy was not established.",
+          "refs": [
+            "sil_card"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodium-nitrate",
+      "name": "Sodium nitrate",
+      "alias": "nitric-oxide donor",
+      "developer": "Cedars-Sinai investigators",
+      "developerUrl": "https://www.cedars-sinai.org/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Small BMD physiological studies",
+      "tissue": "skeletal",
+      "date": "2015-12-01",
+      "refs": [
+        "nit_paper",
+        "nit_trial"
+      ],
+      "trial": "NCT02147639",
+      "claims": [
+        {
+          "text": "Small Becker studies found acute restoration of exercise-related muscle perfusion regulation after oral sodium nitrate.",
+          "refs": [
+            "nit_paper"
+          ]
+        },
+        {
+          "text": "These physiological findings do not demonstrate durable functional or disease-modifying efficacy.",
+          "refs": [
+            "nit_paper",
+            "nit_trial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "follistatin",
+      "name": "Follistatin gene transfer",
+      "alias": "AAV1.CMV.FS344",
+      "developer": "Nationwide Children’s Hospital",
+      "developerUrl": "https://www.nationwidechildrens.org/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 1/2a completed (BMD)",
+      "tissue": "skeletal",
+      "date": "2017-10-01",
+      "refs": [
+        "foll_trial",
+        "foll_paper"
+      ],
+      "trial": "NCT01519349",
+      "claims": [
+        {
+          "text": "In contrast to dystrophin replacement, this gene-transfer study expressed follistatin to inhibit the myostatin pathway in Becker patients.",
+          "refs": [
+            "foll_trial",
+            "foll_paper"
+          ]
+        },
+        {
+          "text": "A small Phase 1/2a study reported variable changes in six-minute walk distance; this is a historical program with no established BMD approval.",
+          "refs": [
+            "foll_paper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crd007",
+      "name": "CRD007",
+      "alias": "pemirolast",
+      "developer": "RSPR Pharma AB",
+      "developerUrl": "https://clinicaltrials.gov/study/NCT01540604",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 2 completed (DMD/BMD)",
+      "tissue": "skeletal",
+      "date": "2012-10-02",
+      "refs": [
+        "crd_trial",
+        "crd_alias"
+      ],
+      "trial": "NCT01540604",
+      "claims": [
+        {
+          "text": "Open-label Phase 2 study enrolled children with Duchenne, Becker, or symptomatic carrier status. The registry lists the study as completed.",
+          "refs": [
+            "crd_trial"
+          ]
+        },
+        {
+          "text": "This is historical clinical research, not evidence of an active Becker development program.",
+          "refs": [
+            "crd_trial"
+          ]
+        },
+        {
+          "text": "The EU trial record identifies CRD007 as pemirolast.",
+          "refs": [
+            "crd_alias"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "myo029",
+      "name": "MYO-029",
+      "alias": "stamulumab",
+      "developer": "Clinical trial investigators",
+      "developerUrl": "https://pubmed.ncbi.nlm.nih.gov/18335515/",
+      "group": "direct",
+      "status": "completed",
+      "stage": "Phase 1/2 completed (mixed MD)",
+      "tissue": "skeletal",
+      "date": "2008-01-01",
+      "refs": [
+        "myo_paper"
+      ],
+      "claims": [
+        {
+          "text": "A placebo-controlled myostatin-neutralizing antibody study enrolled adults with Becker and other muscular dystrophies.",
+          "refs": [
+            "myo_paper"
+          ]
+        },
+        {
+          "text": "Exploratory muscle-strength and functional outcomes did not improve; the study was not powered to demonstrate efficacy.",
+          "refs": [
+            "myo_paper"
+          ]
+        }
+      ]
+    }
+  ]
+}
